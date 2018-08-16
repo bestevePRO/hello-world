@@ -1,9 +1,7 @@
-var Vasea=40;
-var Petea=35;
-if(Vasea-Petea>10){
-  console.log("Разные поколения"); 
-}else{
-  console.log("Почти одноклассники");
-}
-
-  
+(function (){
+var button = document.querySelectorAll(".button")[0];
+var rectangle = document.querySelectorAll(".rectangle")[0];
+ button.addEventListener("click", function(){
+   rectangle.style.borderColor = "green";
+   rectangle.style.backgroundColor = "red";})
+ })();
