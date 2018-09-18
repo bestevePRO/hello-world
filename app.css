@@ -1,0 +1,21 @@
+span{
+    background-color: black;
+}
+div {
+    background-color: green;
+}
+body{
+    margin: 0;
+    padding: 0;  
+}
+.container{
+    display: flex;
+    background-color: indianred;
+    height: 10vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+.container > div {
+    flex: 0 0 33%;
+    border: 10px solid green;
+}
