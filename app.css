@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 span{
     background-color: black;
 }
@@ -19,3 +20,10 @@ body{
     flex: 0 0 33%;
     border: 10px solid green;
 }
+=======
+.rectangle {
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+}
+>>>>>>> c2998a3c6033f0e5838c296d6511fabb810d4a7a
