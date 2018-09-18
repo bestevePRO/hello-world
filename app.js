@@ -1,8 +1,10 @@
-(function () {
-  var button = document.querySelectorAll(".button")[0];
-  var rectangle = document.querySelectorAll(".rectangle")[0];
-  button.addEventListener("click", function () {
-    rectangle.style.borderColor = "green";
-    rectangle.style.backgroundColor = "red";
-  })
-})();
+showTimestamp = function (e) {
+    var now = new Date();
+    if (e.ctrlKey && e.altKey) {
+        var time = now.toTimeString()
+        alert(time);
+    } if (e.shiftKey) {
+        var date = now.toDateString();
+        alert(date);
+    }
+}
