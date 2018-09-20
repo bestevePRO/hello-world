@@ -9,12 +9,17 @@
 </head>
 
 <body>
+
     <div class="root"></div>
+
     <script>
-        var root = document.querySelector(".root");
-        var elem = document.createElement("button"); 
-        elem.textContent = "Исследовать";
-        root.appendChild(elem); 
+        var root = document.querySelector(".root"); // получили ссылку на блок root
+        var elem = document.createElement("div"); // создали элемент - только в памяти, в DOM'е его нет
+        elem.textContent = "Привет, мир(2)!";
+        var elembut = document.createElement("button");
+        elembut.textContent = "Исследовать";
+        root.appendChild(elem);
+        root.appendChild(elembut);
     </script>
 </body>
 
